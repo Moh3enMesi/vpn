@@ -16,6 +16,6 @@
     {"id":6, "app":"com.get.client"}
   ],
   "free":[
-    {"id":0, "file":0, "city":"Falkenstein","country":"Germany","image":"germany","ip":"188.34.155.93","active":"true","signal":"a"}
+    {"id":0, "file":0, "city":"Falkenstein","country":"Germany","image":"germany","ip":"188.34.155.93","active":"true","signal":"b"}
   ]
 }
