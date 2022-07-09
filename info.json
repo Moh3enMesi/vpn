@@ -1,5 +1,5 @@
 [
-	{"id": 1, "city": "Falkenstein", "country": "Germany", "image":"germany", "ip":"188.34.155.93", "speed": 95, "detail": "client
+	{"id": 1, "city": "Falkenstein", "country": "Germany", "image":"germany", "ip":"188.34.155.93", "speed": 90, "detail": "client
 proto udp
 explicit-exit-notify
 remote 188.34.155.93 1194
