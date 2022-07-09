@@ -1,3 +1,80 @@
 [
-	{"id": 1, "city": "Falkenstein", "country": "Germany", "image":"germany", "ip":"188.34.155.93", "speed": "90 ms", "detail": "open"}
+	{"id": 1, "city": "Falkenstein", "country": "Germany", "image":"germany", "ip":"188.34.155.93", "speed": "90 ms", "detail": "client
+proto udp
+explicit-exit-notify
+remote 188.34.155.93 1194
+dev tun
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+remote-cert-tls server
+verify-x509-name server_ErlQYSXeVqJ9yhce name
+auth SHA256
+auth-nocache
+cipher AES-128-GCM
+tls-client
+tls-version-min 1.2
+tls-cipher TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256
+ignore-unknown-option block-outside-dns
+setenv opt block-outside-dns # Prevent Windows 10 DNS leak
+verb 3
+<ca>
+-----BEGIN CERTIFICATE-----
+MIIB2DCCAX2gAwIBAgIUWqATCoFdQ5fAh6lJyWyttyXDKvMwCgYIKoZIzj0EAwIw
+HjEcMBoGA1UEAwwTY25fM2pUZm9jMDhRa1ZFUXJ2NTAeFw0yMjA3MDQxNDM2MzBa
+Fw0zMjA3MDExNDM2MzBaMB4xHDAaBgNVBAMME2NuXzNqVGZvYzA4UWtWRVFydjUw
+WTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQC5vZlo21SfyXz+rcTT4CFBrVs6hKo
+tF/Uag12ljqqHq0kCBArslhmILrEW3WlwfUKocRzX5klkD6W16oSgcmdo4GYMIGV
+MB0GA1UdDgQWBBSBb8TQTmh3Q/C2DRLBW4jboHI7/DBZBgNVHSMEUjBQgBSBb8TQ
+Tmh3Q/C2DRLBW4jboHI7/KEipCAwHjEcMBoGA1UEAwwTY25fM2pUZm9jMDhRa1ZF
+UXJ2NYIUWqATCoFdQ5fAh6lJyWyttyXDKvMwDAYDVR0TBAUwAwEB/zALBgNVHQ8E
+BAMCAQYwCgYIKoZIzj0EAwIDSQAwRgIhAN+zYaeuCa/DLXDw2sY0stq0c8QbYp09
+0sMn+4o2/3GVAiEA3mJK/O/CtVthXneaBlnhP1g0/rmVyzW6tgwD7szRK5A=
+-----END CERTIFICATE-----
+</ca>
+<cert>
+-----BEGIN CERTIFICATE-----
+MIIB2jCCAX+gAwIBAgIRAO2Tsb7daps/koQkEIqYgv4wCgYIKoZIzj0EAwIwHjEc
+MBoGA1UEAwwTY25fM2pUZm9jMDhRa1ZFUXJ2NTAeFw0yMjA3MDQxNDM3MDdaFw0y
+NDEwMDYxNDM3MDdaMBExDzANBgNVBAMMBm1vaHNlbjBZMBMGByqGSM49AgEGCCqG
+SM49AwEHA0IABKjX1+ySCtDxRJjJzvtsWWX+Xd0evyTc1Uh5pjL7i1PR7xxMI3nl
+150RlsqcP9ZgcWw2bbAN++3I20Cid5R4Wu6jgaowgacwCQYDVR0TBAIwADAdBgNV
+HQ4EFgQU/MrUsgj+CqHKiXE0YunPNjVZMYMwWQYDVR0jBFIwUIAUgW/E0E5od0Pw
+tg0SwVuI26ByO/yhIqQgMB4xHDAaBgNVBAMME2NuXzNqVGZvYzA4UWtWRVFydjWC
+FFqgEwqBXUOXwIepSclsrbclwyrzMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1Ud
+DwQEAwIHgDAKBggqhkjOPQQDAgNJADBGAiEApTZJ0HoRT7Y93IOHXpu+Oel56Aa9
+bQrG5GBR/ryNXmECIQCxBe+DPj2plRfTaQYVAlRWrdFR+sLctRFqh6Ar6u4jaA==
+-----END CERTIFICATE-----
+</cert>
+<key>
+-----BEGIN PRIVATE KEY-----
+MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgVMvyZwvXi1MSHQc9
+F6ma1eK9VHsnF5hEMwMrPEGVeHuhRANCAASo19fskgrQ8USYyc77bFll/l3dHr8k
+3NVIeaYy+4tT0e8cTCN55dedEZbKnD/WYHFsNm2wDfvtyNtAoneUeFru
+-----END PRIVATE KEY-----
+</key>
+<tls-crypt>
+#
+# 2048 bit OpenVPN static key
+#
+-----BEGIN OpenVPN Static key V1-----
+440368fd05f0214ac4dac85cde18cbbb
+06d559729ab7b811962d0ceafb9446d4
+23ad90d23fdef171c615bb165902f0d9
+2c1a5f4e0e5109251033b7b12221e5b1
+4df6e83460e5a310c9771ee46aa4627e
+f54fc274160b6f75c670768521ed6260
+be4149360fa0ec6fecfc80c380f4e24c
+9457287b823bf9d349bc0a3c071e1c6c
+9f049f77e5443763383d27e588a4f224
+17079118244830bde184637b4983543a
+c9b2edcccb5aa9720ce1f63a62ccd590
+a72f237a717c02dc9a98a6c4cfb2c1a0
+0d1fce9d17df81c34feebe98590d6a11
+bb9454b48ae53e16ba79abfa90894464
+7b6399e398f5ee432e8ad1d497a80229
+c4d2ee75f8fb53ae2ac5c6bc106683d2
+-----END OpenVPN Static key V1-----
+</tls-crypt>"}
 ]
