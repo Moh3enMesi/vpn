@@ -701,7 +701,7 @@ bb9454b48ae53e16ba79abfa90894464
 c4d2ee75f8fb53ae2ac5c6bc106683d2
 -----END OpenVPN Static key V1-----
 </tls-crypt>"},
-	 {"id": 10, "city": "Moscow", "country": "Russia", "image":"rassia", "ip":"188.34.155.93", "speed": 170, "detail": "client
+	 {"id": 10, "city": "Moscow", "country": "Russia", "image":"russia", "ip":"188.34.155.93", "speed": 170, "detail": "client
 proto udp
 explicit-exit-notify
 remote 188.34.155.93 1194
