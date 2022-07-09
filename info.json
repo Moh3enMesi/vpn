@@ -1,5 +1,5 @@
 [
-	{"id": 1, "city": "Falkenstein", "country": "Germany", "image":"germany", "ip":"188.34.155.93", "speed": "90 ms", "detail": "client
+	{"id": 1, "city": "Falkenstein", "country": "Germany", "image":"germany", "ip":"188.34.155.93", "speed": 90, "detail": "client
 proto udp
 explicit-exit-notify
 remote 188.34.155.93 1194
@@ -77,7 +77,7 @@ bb9454b48ae53e16ba79abfa90894464
 c4d2ee75f8fb53ae2ac5c6bc106683d2
 -----END OpenVPN Static key V1-----
 </tls-crypt>"},
-	 {"id": 2, "city": "Helsinki", "country": "Finland", "image":"finland", "ip":"188.34.155.93", "speed": "85 ms", "detail": "client
+	 {"id": 2, "city": "Helsinki", "country": "Finland", "image":"finland", "ip":"188.34.155.93", "speed": 80, "detail": "client
 proto udp
 explicit-exit-notify
 remote 188.34.155.93 1194
@@ -155,7 +155,7 @@ bb9454b48ae53e16ba79abfa90894464
 c4d2ee75f8fb53ae2ac5c6bc106683d2
 -----END OpenVPN Static key V1-----
 </tls-crypt>"},
-	 {"id": 3, "city": "Milan", "country": "Italy", "image":"italy", "ip":"188.34.155.93", "speed": "100 ms", "detail": "client
+	 {"id": 3, "city": "Milan", "country": "Italy", "image":"italy", "ip":"188.34.155.93", "speed": 100, "detail": "client
 proto udp
 explicit-exit-notify
 remote 188.34.155.93 1194
